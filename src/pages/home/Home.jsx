@@ -1,7 +1,7 @@
 import React from 'react'
 import Profile from '../../assets/home.jpeg'
 import { FaArrowRight } from 'react-icons/fa'
-import './home.css'
+import './Home.css'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
