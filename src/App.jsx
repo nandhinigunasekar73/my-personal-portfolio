@@ -11,7 +11,7 @@ import Contact from './pages/contact/Contact'
 function App() {
 
   return (
-    <BrowserRouter>    
+    <BrowserRouter basename="/my-personal-portfolio">    
     <Navbar />
     <Themes />
     <Routes>
