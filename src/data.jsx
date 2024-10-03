@@ -115,7 +115,7 @@ export const personalInfo = [
   {
     id: 10,
     title: 'Langages : ',
-    description: 'Tamil, English',
+    description: 'English, Tamil',
   },
 ];
 
@@ -128,7 +128,7 @@ export const stats = [
 
   {
     id: 2,
-    no: '20+',
+    no: '1 0+',
     title: 'Completed <br /> Projects',
   },
 
@@ -150,54 +150,66 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2023 - PRESENT',
+    title: 'Software Engineer at cloudrevel innovations Pvt LTD, Chennai',
+    desc: [
+      'Developed and maintained e-commerce websites using Laravel framework, ensuring high performance, security, and scalability.',
+      'Implemented custom features and functionalities based on client requirements, improving user experience and site functionality.',
+      'Integrated third-party services and APIs to enhance application functionality and user experience.'      
+    ],
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2022 - 2023',
+    title: 'Software Developer at Fido group of companies, Chennai',
+    desc: [
+      'Worked on HTML, CSS, JavaScript and their integration within a PHP environment',
+      'Developed CRM using core PHP. Create a restful API for an e-commerce project.',
+      'Utilized tools such as Git and SonarQube.',
+    ],
   },
 
   {
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    year: '2021 - 2022',
+    title: 'Software Trainee Developer at S-Logix (OPC) Private Limited, Chennai',
+    desc: [
+        'Developed, tested, and maintained current systems written in PHP.',
+        'Discussed with client side support team and solved a multiple issues of the projects.',
+        'In-depth knowledge of PHP and MySQL.',
+    ],
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2020',
+    title: 'BE Computer Science Engineering',
+    desc: 'Kings Engineering College, Chennai',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2016',
+    title: 'HSC',
+    desc: 'Kamaraj Higher Secondary School, Thiruchendur',
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2014',
+    title: 'SSLC',
+    desc: 'Sri Ganesar Higher Secondary School, Thiruchendur',
   },
 ];
 

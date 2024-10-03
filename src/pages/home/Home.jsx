@@ -19,9 +19,8 @@ const Home = () => {
        </h1>
 
        <p className='home__description'>
-       I am a passionate Software Engineer with experience in developing scalable, high-performance applications. Skilled in both front-end and back-end technologies, I focus on delivering efficient and user-centric solutions. Constantly striving for improvement, I enjoy solving complex problems and collaborating within teams to achieve business and technical goals.
-      </p>
-       
+          Experienced Laravel Developer with 3+ years of hands-on experience in building and maintaining web applications. Collaborative team player adept at gathering requirements, defining project goals and delivering solutions that exceed client expectations. Strong problem-solving abilities with a commitment to writing clean and maintainable code.
+        </p>       
        <Link to='/about' className='button'>
         More About Me{''}
         <span className='button__icon'><FaArrowRight/></span>

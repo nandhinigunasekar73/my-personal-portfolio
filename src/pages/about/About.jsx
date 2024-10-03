@@ -2,7 +2,7 @@ import React from 'react'
 import Info from '../../componets/Info'
 import Stats from '../../componets/Stats'
 import { FaDownload } from 'react-icons/fa'
-import CV from '../../assets/steve-Cv.pdf'
+import CV from '../../assets/G.Nandhini.pdf'
 import Skills from '../../componets/Skills'
 import { resume } from '../../data'
 import ResumeItem from '../../componets/ResumeItem'
@@ -24,7 +24,7 @@ const About = () => {
             <Info/>
           </ul>
 
-          <a href={CV} download='steve-Cv.pdf' className='button'>
+          <a href={CV} download='G.Nandhini.pdf' className='button'>
             Download Cv{''}
             <span className='button__icon'>
               <FaDownload/>
